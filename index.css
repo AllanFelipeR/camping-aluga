@@ -1,0 +1,166 @@
+@-ms-viewport {
+    width: device-width; }
+  body {
+    background-color: #ffffff;
+    color: #363636; 
+    font-family: "Avenir-black", sans-serif;
+ }
+
+#t{
+    top:100px;
+}
+
+#f{
+    top:200px;
+}
+
+#i{
+    top:300px;
+}
+
+#w{
+    top:400px;
+}
+
+
+
+    /*h1, h2, h3, h4, h5, h6, header, menu, li, ol, ul,*/
+    html, body, div, span, applet, iframe, 
+    pre, a, abbr, acronym, address, big, cite, p,
+    code, del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var, b,
+    u, i, center, dl, dt, dd, fieldset, blockquote,
+    form, label, legend, table, caption, tbody,
+    tfoot, thead, tr, th, td, article, aside,
+    canvas, details, embed, figure, figcaption,
+    footer, hgroup, nav, output, ruby, object,
+    section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline; 
+}
+
+   /* Header = menu */
+#menu {
+    background: #000000;
+    font-family: "Avenir-black", sans-serif;
+    border-radius: 2px;
+    border: 2px ;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0px 0px 0px 20px;
+    position: fixed;
+    transition: all .3s;
+    display:flex;
+    z-index: 10001;
+    width: 100%;
+    height: 3.25rem;
+    top: 0px;
+    text-decoration: none;
+     
+    justify-content: center;
+    align-items: center;
+    /*box-shadow:  0px 0px 100px rgb(255, 251, 0);*/
+
+} 
+
+ol {
+    background-color: rgb(0, 84, 209);
+    width: 7%;
+    margin: 0;
+    padding: 0;
+    float: initial ;
+    position: center;
+    transition: all .3s;
+    z-index: 10001;
+}
+
+li {
+    background-color: rgb(255, 255, 0);
+    list-style-type: none;
+    margin: 2px;
+    padding: 1px;
+    overflow: hidden;
+    text-decoration: none;
+    float: left;
+}
+  
+    
+
+ a{
+    color: #ce1b28; 
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(235, 226, 226);
+    border: 1px  solid rgba(255, 255, 255, 0.795);
+} 
+      
+a:hover { 
+    
+    -moz-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    border-radius: 3px;
+    border: 1px solid rgb(51, 51, 51);
+    text-decoration: none;
+
+}
+
+.icon fa-twitter{
+    position: absolute;
+}
+      
+#Quem{
+    top:33px;
+    background-color: rgba(93, 143, 7, 0.432);
+    width:100%;
+    height:400px ;
+    position: relative;
+
+}
+
+#Como{
+    top:15px;
+    background-color: #6cedf759;
+    width:100%;
+    height:400px ;
+    position: relative;
+}
+
+#Dicas{
+    top:-4px;
+    background-color: #8142068a;
+    width:100%;
+    height:400px ;
+    position: relative;
+}
+
+#Parceiros{
+    top:-23px;
+    background-color: rgba(236, 240, 18, 0.329);
+    width:100% ;
+    height:400px ;
+    position: relative;
+}
+
+    /*Rodapé*/
+#redes{
+    background-color: rgba(52, 140, 255, 0.418);
+    position: relative;
+    width: 100%;
+    height: 300px;
+    top :-44px;
+}
+
+/*Direitos Autorais*/
+#copyright{
+    position: absolute;
+    bottom:-1200px;
+    left: 3px;
+}
+
+  
+    
+
